@@ -21,7 +21,7 @@ test('calculate different values and check the output', function(){
         const [key, value] = entry;
         console.log(key);
         let mathResult = functionsInstance.mathtest(value[0], value[1]);
-        expect(key).toBe(mathResult);
+        expect(parseFloat(key)).toBe(mathResult);
         let consoleSpy = jest.spyOn(console, 'log');
         console.log(mathResult);
         expect(consoleSpy).toHaveBeenCalledWith(key);
