@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/Headscracher/nodejs_unittest_test/workflows/Node.js CI/badge.svg)](https://github.com/Headscracher/nodejs_unittest_test/actions)
+[![Actions Status](https://github.com/Headscracher/nodejs_unittest_test/workflows/Node.js%20CI/badge.svg)](https://github.com/Headscracher/nodejs_unittest_test/actions)
 
 # NodeJS Unit-Test test
 This is just a little repository to test the github ci functionalities, especially the build and test workflow.
